@@ -1,16 +1,16 @@
 # HPF Whitening Protocol
 
+<img src="assets/cover.png" alt="HPF Whitening Protocol" width="100%">
+
 > A prescription link becomes a guided, offline at-home whitening protocol for the patient.
 
-**At-home whitening, guided step by step** · Live · Clinical & Patient Experience  
-**Source code** · proprietary and private: this repository is documentation only.
+**Status** · Live &nbsp;·&nbsp; **Area** · Clinical & Patient Experience &nbsp;·&nbsp; **Source code** · private, documentation only
 
-![Practitioner link generator · fictitious patient and product](assets/whitening-prescription-generator.png)
+### At a glance
 
-## My role
-
-Product design and development.  
-The project started from the questions patients ask during at-home whitening.
+- The patient is guided day by day, without an account.
+- No server ever receives the prescription.
+- Works offline once installed.
 
 ## The problem
 
@@ -20,6 +20,11 @@ The paper instructions get lost, and the patient has nobody to ask in the evenin
 ## The solution
 
 The practitioner generates a link; the patient opens an installable, offline, step-by-step whitening guide, with no account, no server and no data transfer.
+
+## My role
+
+Product design and development.  
+The project started from the questions patients ask during at-home whitening.
 
 ## Key features
 
@@ -44,7 +49,7 @@ All screenshots use demonstration or synthetic data.
 
 HTML · CSS · JavaScript · PWA · Service worker · Netlify
 
-## Architecture (simplified)
+## Architecture
 
 ![Simplified architecture of HPF Whitening Protocol](assets/architecture.svg)
 
@@ -62,10 +67,10 @@ HTML · CSS · JavaScript · PWA · Service worker · Netlify
 - Strict input validation, expiring links and an exact-origin check on the return link.
 - Honest limit: the link carries the prescription, so it must be treated as confidential.
 - The source code of HPF Whitening Protocol is proprietary and kept in a private repository.
-- This repository contains documentation and demonstration screenshots only: no source code, configuration, data or history from the private project.
+- This repository contains documentation and demonstration screenshots only.
 - Demonstrations can be arranged on request.
 
 ---
 
-Part of the [HPF Dental Solutions project portfolio](https://github.com/hpfdentalsolutions) · [hpfdentalsolutions.com](https://hpfdentalsolutions.com)  
+[Hugo Philippe Fusaro](https://github.com/hugophilippefusaro) · [HPF Dental Solutions](https://github.com/hpfdentalsolutions) · [hpfdentalsolutions.com](https://hpfdentalsolutions.com)  
 © 2026 Hugo Philippe Fusaro. All rights reserved on texts and images.
