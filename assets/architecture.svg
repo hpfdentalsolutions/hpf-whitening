@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" font-family="Manrope, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="1200" height="370" fill="#F5EFE4"/>
+<text x="40" y="44" font-family="Fraunces, Georgia, serif" font-size="26" fill="#1A1512">HPF Whitening Protocol</text>
+<text x="40" y="68" font-size="12" letter-spacing="2.2" fill="#866435">ARCHITECTURE · SIMPLIFIED</text>
+<text x="40.0" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">PRACTITIONER</text>
+<rect x="40.0" y="116" width="342.6666666666667" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="54.0" y="142" font-size="15" font-weight="600" fill="#1A1512">Link generator</text>
+<text x="54.0" y="162" font-size="12" fill="#3B342D">Prescription, QR code</text>
+<rect x="40.0" y="208" width="342.6666666666667" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="54.0" y="234" font-size="15" font-weight="600" fill="#1A1512">Prescription link</text>
+<text x="54.0" y="254" font-size="12" fill="#3B342D">Data in the URL fragment</text>
+<text x="428.6666666666667" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">PATIENT DEVICE</text>
+<rect x="428.6666666666667" y="116" width="342.6666666666667" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="442.6666666666667" y="142" font-size="15" font-weight="600" fill="#1A1512">Whitening app</text>
+<text x="442.6666666666667" y="162" font-size="12" fill="#3B342D">Static progressive web app</text>
+<rect x="428.6666666666667" y="208" width="342.6666666666667" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="442.6666666666667" y="234" font-size="15" font-weight="600" fill="#1A1512">Local storage</text>
+<text x="442.6666666666667" y="254" font-size="12" fill="#3B342D">Progress kept on the device</text>
+<text x="817.3333333333334" y="108" font-size="11" letter-spacing="1.8" fill="#6B5F52">HOSTING</text>
+<rect x="817.3333333333334" y="116" width="342.6666666666667" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="831.3333333333334" y="142" font-size="15" font-weight="600" fill="#1A1512">Static hosting</text>
+<text x="831.3333333333334" y="162" font-size="12" fill="#3B342D">No backend, no database</text>
+<rect x="817.3333333333334" y="208" width="342.6666666666667" height="74" fill="#FBF7EE" stroke="#B89668" stroke-opacity=".7"/>
+<text x="831.3333333333334" y="234" font-size="15" font-weight="600" fill="#1A1512">Security headers</text>
+<text x="831.3333333333334" y="254" font-size="12" fill="#3B342D">Strict content security policy</text>
+<line x1="388.6666666666667" y1="199.0" x2="418.6666666666667" y2="199.0" stroke="#866435" stroke-width="1.4"/>
+<path d="M418.6666666666667,194.0 L426.6666666666667,199.0 L418.6666666666667,204.0 Z" fill="#866435"/>
+<line x1="777.3333333333334" y1="199.0" x2="807.3333333333334" y2="199.0" stroke="#866435" stroke-width="1.4"/>
+<path d="M807.3333333333334,194.0 L815.3333333333334,199.0 L807.3333333333334,204.0 Z" fill="#866435"/>
+<text x="40" y="344" font-size="12" fill="#6B5F52">No server ever receives the prescription: it travels in the link and stays on the patient&#x27;s device.</text>
+</svg>
