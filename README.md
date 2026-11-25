@@ -1,6 +1,6 @@
 # HPF Whitening Protocol
 
-<img src="assets/cover.png" alt="HPF Whitening Protocol" width="100%">
+<img src="assets/cover-2.png" alt="HPF Whitening Protocol" width="100%">
 
 > A prescription link becomes a guided, offline at-home whitening protocol for the patient.
 
